@@ -19,6 +19,7 @@ header {
   height:200px;
   float: left;
   overflow: hidden;
+  background: grey;
 }
 
 .food{
@@ -67,4 +68,6 @@ header {
 div>p {
   clear:both;
   padding: 1em;
+  font-family: Arial;
+  font-weight: bold;
 }
