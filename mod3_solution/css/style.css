@@ -1,5 +1,10 @@
-.header {
+* {
+  box-sizing: border-box;
+}
+
+header {
 	text-align: center;
 	font-family: Arial;
-	font-style:border;
+	font-weight: bold;
+	font-size: 30px;
 }
