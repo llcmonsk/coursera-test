@@ -8,3 +8,12 @@ header {
 	font-weight: bold;
 	font-size: 30px;
 }
+
+nav .navbar-brand{
+	font-size: 50px;
+	margin-left: 30px;
+}
+
+nav {
+	background-color: #e3f2fd;
+}
