@@ -2,18 +2,22 @@
   box-sizing: border-box;
 }
 
+
+
 header {
-	text-align: center;
-	font-family: Arial;
-	font-size: 30px;
+  text-align: center;
+  font-family: Arial;
+  font-size: 30px;
   margin-top:40px;
   margin-bottom:30px;
 }
 
-
+body{
+  padding:10px;
+}
 
 nav .navbar-brand{
-	font-size: 40px;
+  font-size: 40px;
 }
 
 nav button{
@@ -21,8 +25,11 @@ nav button{
 }
 
 #header-nav {
-	background-color: blue;
+  background-color: blue;
   background-color: #e3f2fd;
+  margin-top:-10px;
+  margin-left:-10px;
+  margin-right:-10px;
 }
 
 .item{
@@ -30,20 +37,19 @@ nav button{
   background-color: #e3f2fd;
   width:100%;
   margin-bottom:20px;
-  margin-left:10px;
-  margin-right:10px;
+  overflow: hidden;
 }
 
 .item span{
   text-align: center;
   width: 100%;
   display: block;
-  margin-bottom: 10px;
   font-size: 20px;
 }
 
 p{
   padding:10px;
+  
 }
 
 #nav-list{
@@ -58,3 +64,7 @@ li span{
  margin-top:10px;
   margin-bottom:10px;
 }
+
+
+
+
